@@ -1,0 +1,9 @@
+[Inventory.Items.Item8]
+name = "Bent Paperclip"
+id = 00008
+type = "Weapon"
+subtype = "Material"
+base_weight = 10
+base_durability = 70
+base_strength = 10
+base_speed = 10

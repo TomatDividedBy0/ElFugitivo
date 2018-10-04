@@ -1,0 +1,9 @@
+[Inventory.Items.Item5]
+name = "Craft Knife"
+id = 00005
+type = "Weapon"
+subtype = "Tool"
+base_weight = 45
+base_durability = 150
+base_strength = 20
+base_speed = 4

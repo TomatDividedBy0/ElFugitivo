@@ -1,0 +1,9 @@
+[Inventory.Items.Item4]
+name = "Wire"
+id = 00004
+type = "Weapon"
+subtype = "Material"
+base_weight = 5
+base_durability = 60
+base_strength = 8
+base_speed = 15
