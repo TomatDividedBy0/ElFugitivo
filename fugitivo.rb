@@ -4,7 +4,6 @@ require 'dotenv/load'
 require 'discordrb'
 require 'fileutils'
 
-
 module Intro_Name
 	extend Discordrb::EventContainer
 	
@@ -28,7 +27,7 @@ module Intro_Name
 		  end
 	    end
 	 end
-env = ENV['TOKEN']
-bot = Discordrb::Bot.new token: env
+conf = YAML.load(File.read("token.yaml"))
+bot = Discordrb::Bot.new token: conf["token"]
 bot.include! Intro_Name
 bot.run
