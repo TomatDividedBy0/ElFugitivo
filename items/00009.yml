@@ -1,0 +1,8 @@
+name: Tape Trap
+id: 00009
+type: Weapon
+subtype: Trap
+weight: 5
+durability: 1
+strength: 10
+active_period: 3

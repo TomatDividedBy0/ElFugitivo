@@ -1,8 +1,0 @@
-[Matchstick]
-name = "Matchstick"
-id = 00002
-type = "Disposable"
-subtype = "Tool"
-weight = 5
-active_period = 50
-light_radius = 2

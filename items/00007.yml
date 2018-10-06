@@ -1,0 +1,8 @@
+name: Screwdriver
+id: 00007
+type: Weapon
+subtype: Tool
+base_weight: 35
+base_durability: 160
+base_strength: 30
+base_speed: 2
