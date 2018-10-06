@@ -1,0 +1,7 @@
+name: Toothpick
+type: Weapon
+subtype: Material
+base_weight: 10
+base_durability: 50
+base_strength: 10
+base_speed: 5

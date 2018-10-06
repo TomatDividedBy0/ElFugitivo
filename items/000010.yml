@@ -1,0 +1,8 @@
+name: Screw
+id: 00010
+type: Weapon
+base_subtype: Material
+base_weight: 13
+base_durability: 70
+base_strength: 12
+base_speed: 10

@@ -1,0 +1,8 @@
+name: Soldering Iron Tip
+id: 00003
+type: Weapon
+subtype: Tool
+base_weight: 30
+base_durability: 150
+base_strength: 15
+base_speed: 5
