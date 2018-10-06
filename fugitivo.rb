@@ -16,13 +16,13 @@ module Intro_Name
 		  event.user.await(:newname) do |change_name|
 		  	name = change_name.message.content[0,31]
 		  	event.user.nick=(name)
-		  	print change_name.message.content
-		  	welcome_message = "Welcome, "
-		  	change_name.respond([welcome_message, user_mention].join(''))
-		  	Dir.chdir("/home/tomat0/hdd/Ruby")
+		  	print name
 		  	profile = Hash.new
 		  	profile["id"] = event.user.id.to_s
-		  	profile["name"] = event.user.nick
+		  	profile["name"] = name.to_s
+		  	welcome_message = "Welcome, "
+		  	change_name.respond([welcome_message, user_mention].join(''))
+		  	Dir.chdir("/home/tomat0/hdd/Ruby/ElFugitivo")
 		  	File.open([Dir.pwd, "/""players/", (event.user.id).to_s, ".yml"].join(""), "w"){|f| f.write(profile.to_yaml)}
 		  end
 	    end
